@@ -1,3 +1,10 @@
+# Custom
+
+Don't use CDN for highlight js,
+rather download a [custom bundle](https://highlightjs.org/download/)
+extract it to `static/highlight`, and edit
+`layouts/partials/head_includes.html` and `layouts/partials/scripts.html`
+
 # hugo-theme-basic
 
 Basic personal site theme styled with minimal tachyons, syntax highlighting, and blog series configuration.

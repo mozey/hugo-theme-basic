@@ -21,6 +21,10 @@
     />
 {{ end }}
     {{ partial "head_includes.html" . }}
+
+    <link rel="icon" 
+    href="{{ .Site.BaseURL }}images/favicon_io/favicon.ico">
+
   </head>
   <body
     lang="{{ .Site.LanguageCode }}"
@@ -28,7 +32,7 @@
   >
     <section id="main">
       <div>
-        <h1 id="title" class="f3">
+        <h1 id="title" class="f3 dark-green">
           {{ .Site.Title }} {{ .Site.Params.TitleEmoji | emojify }}
         </h1>
         <ul class="list pl0">
