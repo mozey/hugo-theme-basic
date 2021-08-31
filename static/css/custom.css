@@ -10,3 +10,7 @@ code.language-plaintext {
     background-color: #272822;
     color: #f8f8f2;
 }
+
+a.heading-anchor {
+    text-decoration: none;
+}
