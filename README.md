@@ -1,9 +1,23 @@
-# Custom
+# Dev setup
 
-Don't use CDN for highlight js,
+Assuming the site has the following entry in `.gitignore`
+```plaintext
+www/themes/basic
+```
+
+Clone this repo (don't bother with submodules)
+```bash
+cd www
+git clone https://github.com/mozey/hugo-theme-basic themes/basic
+```
+
+## Customization
+
+Not using CDN for highlight js,
 rather download a [custom bundle](https://highlightjs.org/download/)
 extract it to `static/highlight`, and edit
 `layouts/partials/head_includes.html` and `layouts/partials/scripts.html`
+
 
 # hugo-theme-basic
 
