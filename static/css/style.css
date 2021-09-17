@@ -28,3 +28,9 @@ code {
   -webkit-font-smoothings: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
+code, .code {
+  font-family: Consolas,
+               monaco,
+               monospace;
+}
