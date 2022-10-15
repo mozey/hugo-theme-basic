@@ -1,3 +1,6 @@
+**2022-10-15** Using a new theme for [mozey.co](https://mozey.co)
+
+
 # Dev setup
 
 Assuming the site has the following entry in `.gitignore`
